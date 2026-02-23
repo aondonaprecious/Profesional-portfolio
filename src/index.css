@@ -1,0 +1,20 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@theme {
+  /* Industry standard: Define a consistent color palette and spacing */
+  --color-brand-primary: #3b82f6;
+  --color-brand-secondary: #1e40af;
+  --color-bg-dark: #030712;
+  --color-surface-dark: #111827;
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "Fira Code", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[--color-bg-dark] text-white antialiased;
+    font-family: var(--font-sans);
+  }
+}
