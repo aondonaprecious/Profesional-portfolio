@@ -1,5 +1,4 @@
 /** @format */
-
 // src/components/molecules/SectionHeading.tsx
 import React from "react";
 
@@ -18,7 +17,9 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
     <div className="mb-12">
       <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
         {title}{" "}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
+        <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-800">
+          {" "}
+          {/*corrected something here  */}
           {highlight}
         </span>
       </h2>
