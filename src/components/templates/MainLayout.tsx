@@ -1,7 +1,6 @@
 /** @format */
 
 // src/components/templates/MainLayout.tsx
-import React from "react";
 import Navbar from "../organisms/Navbar";
 import { Outlet } from "react-router-dom";
 

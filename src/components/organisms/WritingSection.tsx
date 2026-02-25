@@ -7,7 +7,6 @@ import ArticleCard from "../molecules/ArticleCard";
 import SearchInput from "../atoms/SearchInput";
 import Button from "../atoms/Button";
 import { FiMail } from "react-icons/fi";
-import { m } from "motion/react";
 import mttImage from "../../assets/3mtt.webp";
 import codeImage from "../../assets/code ss.webp";
 
